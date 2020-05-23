@@ -1,7 +1,108 @@
 :root{
     --color-primary: #1B1B1B;
     --color-secodary: #FFFFFF;
+    --color-treansparent: rgba(35, 35, 35, 0.53);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
 }
 .container{
-
+    max-width: 1140px;
+    margin: auto;
+}
+/*------------------------header!----------------------------------*/
+header{
+    width: 100%;
+    height: 100vh;
+}
+.background{
+    background-image: url("../assets/img/background.png");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.cont-info-header{
+    width: 40%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: var(--color-secodary);
+}
+.cont-img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: var(--color-secodary);
+    background-image: url("../assets/img/brayan_2.png");
+    background-size: cover;
+}
+.icon-bottom{
+    width: 50px;
+    height: 50px;
+    background-color: var(--color-treansparent);
+    margin: 10px;
+    transform: rotate(-135deg);
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+.icon-bottom span{
+    width: 40px;
+    height: 5px;
+    background-color: var(--color-secodary);
+    position: relative;
+    margin: 0;
+}
+.icon-bottom span:nth-child(2){
+    width: 5px;
+    height: 40px;
+}
+/*--------------------------------main!---------------------------------------------*/
+.description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.description h3{
+    margin-top: 50px;
+}
+.courses{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin-top: 50px;
+}
+.card{
+    border: 1px solid #e2e2e2;
+    box-shadow: 4px 5px 8px 0px #d2d2d2;
+    margin: 5%;
+    margin-top: 0;
+}
+.img-card{
+    width: 100%;
+    overflow: hidden;
+}
+.img-card img, .logo-card img{
+    width: 100%;
+}
+.main-card{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    margin: 3%;
+}
+.logo-card{
+    width: 35%;
+    margin-top: -39px;
 }
