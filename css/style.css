@@ -53,7 +53,7 @@ header{
     transform: rotate(-135deg);
     display: flex;
     flex-direction: column;
-    padding: 5px;
+    padding: 0 15px 15px 0
 }
 .icon-bottom span{
     width: 40px;
@@ -65,6 +65,10 @@ header{
 .icon-bottom span:nth-child(2){
     width: 5px;
     height: 40px;
+}
+.icon-bottom img{
+    width: 100%;
+    transform: rotate(180deg);
 }
 /*--------------------------------main!---------------------------------------------*/
 .description{
@@ -107,7 +111,7 @@ header{
 }
 .logo-card{
     width: 35%;
-    margin-top: -39px;
+    margin-top: -59px;
 }
 .background-black, .background-black2{
     background-image: url(../assets/img/background_dark.png);
@@ -172,6 +176,13 @@ footer .con-img-footer img{
         width: 70%;
         box-shadow: 4px 5px 8px 0px #d2d2d2;
         margin: auto;
+    }
+    .cont-info-header h1{
+        font-size: 20px;
+    }
+    .cont-img{
+        width: 200px;
+        height: 200px;
     }
 }
 @media screen and  (max-width: 325px){
