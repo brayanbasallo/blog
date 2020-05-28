@@ -14,6 +14,57 @@
     max-width: 1140px;
     margin: auto;
 }
+/*-------------------------nav!-------------------------------------*/
+.nav{
+    position: fixed;
+    width: 100vw;
+    height: 100Vh;
+    background-color: #1b1b1bb0;
+    z-index: 2;
+    left: -200vw;
+    transition: 0.5s all linear;
+}
+.nav .cont-links-nav{
+    width: 40%;
+    background-color: var(--color-primary);
+    height: 100%;
+    border-radius: 0 90% 90% 0;
+}
+.nav .cont-links-nav .links{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nav .cont-links-nav .links a{
+    color: var(--color-secodary);
+    text-decoration: none;
+    font-weight: bold;
+    margin: 15px;
+}
+.button-nav{
+    position: fixed;
+    right: 10px;
+    z-index: 3;
+    top: 10px;
+    transform: rotate(-90deg);
+    transition: 0.5s all linear;
+    cursor: pointer;
+    animation: moveInitial 1s linear;
+}
+.button-nav-active{
+    transform: rotate(90deg);
+}
+.nav-active{
+    left: 0;
+}
+.active-nav-link{
+    width: 40%;
+    background-color: var(--color-secodary);
+    color: var(--color-primary) !important;
+    border-radius: 50px
+}
 /*------------------------header!----------------------------------*/
 header{
     width: 100%;
@@ -46,8 +97,8 @@ header{
     background-size: cover;
 }
 .icon-bottom{
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     background-color: var(--color-treansparent);
     margin: 10px;
     transform: rotate(-135deg);
@@ -163,6 +214,14 @@ footer .con-img-footer img{
     margin: 8%;
     transform: rotate(180deg)
 }
+/*---------------------------------animations!------------------------------------------*/
+@keyframes moveInitial {
+    50%{
+        right: 2px;
+    }
+}
+
+/*-------------------responsive!---------------------------------------------------------*/
 @media screen and (max-width: 1000px){
     footer .con-img-footer img{
         margin: 5%;
@@ -174,7 +233,7 @@ footer .con-img-footer img{
     }
     .card {
         width: 70%;
-        box-shadow: 4px 5px 8px 0px #d2d2d2;
+        box-shadow: 4px 5px 8px 0 #d2d2d2;
         margin: auto;
     }
     .cont-info-header h1{
@@ -183,6 +242,10 @@ footer .con-img-footer img{
     .cont-img{
         width: 200px;
         height: 200px;
+    }
+    .nav .cont-links-nav{
+        width: 100%;
+        border-radius: 0;
     }
 }
 @media screen and  (max-width: 325px){

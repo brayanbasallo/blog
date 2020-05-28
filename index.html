@@ -10,20 +10,35 @@
     <title>Brayan Basallo Soto</title>
 </head>
 <body>
+<nav class="nav">
+    <div class="cont-links-nav">
+        <div class="links">
+            <a class="nav-links" href="#home">Home</a>
+            <a class="nav-links" href="#cursos">Cursos</a>
+            <a class="nav-links" href="#info-web">Esta web</a>
+            <a class="nav-links" href="#gallery">Galería</a>
+        </div>
+    </div>
+</nav>
+<div class="button-nav">
+    <div class="icon-bottom">
+        <img src="assets/img/icon-primary2.png" alt="">
+    </div>
+</div>
 <header>
-    <div class="background">
+    <div class="background part" id="home">
         <div class="cont-info-header">
             <div class="cont-img"></div>
             <h1>Brayan Basallo Soto</h1>
         </div>
         <div class="icon-bottom">
-            <!--<span></span>
-            <span></span>-->
-            <img src="assets/img/icon-primary2.png" alt="">
+            <a href="#cursos">
+                <img src="assets/img/icon-primary2.png" alt="">
+            </a>
         </div>
     </div>
 </header>
-<main class="container">
+<main class="container part"  id="cursos">
     <div class="description">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, dicta, ducimus et eum expedita illum libero minima mollitia officia quasi quod, repellendus! Ad, aspernatur cupiditate magni neque officia praesentium voluptate.</p>
         <h3>Cursos</h3>
@@ -37,7 +52,7 @@
                 <div class="logo-card">
                     <img src="assets/img/vuejs.png" alt="">
                 </div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus facilis fuga</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus facilis fuga Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet atque aut blanditiis consectetur consequatur deserunt dicta ducimus ex, facere hic id illo ipsa nobis quasi sapiente tempore velit. Animi.</p>
             </div>
         </div>
         <div class="card">
@@ -53,18 +68,18 @@
         </div>
         <div class="card">
             <div class="img-card">
-                <img src="assets/img/vue.PNG" alt="">
+                <img src="assets/cursos/php-1.PNG" alt="">
             </div>
             <div class="main-card">
                 <div class="logo-card">
                     <img src="assets/img/php.png" alt="">
                 </div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus facilis fuga</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus facilis fuga Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias cumque dignissimos distinctio ex ipsam nobis, quia quibusdam sit totam voluptates. Alias blanditiis culpa cumque dolore, doloremque eaque excepturi ipsa libero! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda culpa deleniti dolore doloribus earum eos eum, fuga hic impedit incidunt ipsam iusto laborum magnam, necessitatibus nostrum quia suscipit velit? Earum!</p>
             </div>
         </div>
         <div class="card">
             <div class="img-card">
-                <img src="assets/img/vue.PNG" alt="">
+                <img src="assets/cursos/laravel.PNG" alt="">
             </div>
             <div class="main-card">
                 <div class="logo-card">
@@ -75,7 +90,7 @@
         </div>
         <div class="card">
             <div class="img-card">
-                <img src="assets/img/vue.PNG" alt="">
+                <img src="assets/cursos/css.PNG" alt="">
             </div>
             <div class="main-card">
                 <div class="logo-card">
@@ -92,12 +107,12 @@
                 <div class="logo-card">
                     <img src="assets/img/bootstrap.png" alt="">
                 </div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus facilis fuga</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus facilis fuga lorem</p>
             </div>
         </div>
     </article>
 </main>
-<article class="info-web">
+<article class="info-web part" id="info-web">
     <div class="description">
         <h3>Está web</h3>
     </div>
@@ -115,7 +130,7 @@
         </div>
     </div>
 </article>
-<article class="container">
+<article class="container part" id="gallery">
     <div class="description">
         <h3>Galería</h3>
     </div>
@@ -166,7 +181,9 @@
 </article>
 <footer>
     <div class="con-img-footer">
-        <img src="assets/img/icon-primary.png" alt="">
+        <a href="#home">
+            <img src="assets/img/icon-primary.png" alt="">
+        </a>
     </div>
     <div class="links-redes">
         <a href="https://github.com/brayanbasallo" target="_blank"><img src="assets/img/github-white.png" alt=""></a>
@@ -174,5 +191,6 @@
         <a href="mailto:basallo17@gmail.com"><img src="assets/img/gmail.png" alt=""></a>
     </div>
 </footer>
+<script src="js/code.js"></script>
 </body>
 </html>
