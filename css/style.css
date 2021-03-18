@@ -307,12 +307,12 @@ footer .con-img-footer img {
   .desing-pre {
     display: block;
   }
+  .card {
+    width: 95%;
+  }
 }
 @media screen and (max-width: 325px) {
   footer {
     background-image: url("../assets/img/footer-mobil.png");
-  }
-  .card {
-    width: 95%;
   }
 }
