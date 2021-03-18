@@ -1,168 +1,191 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
     <title>Brayan Basallo Soto</title>
 </head>
+
 <body>
-<header>
-    <div class="background">
-        <div class="cont-info-header">
-            <div class="cont-img"></div>
-            <h1>Brayan Basallo Soto</h1>
+    <nav class="nav">
+        <div class="cont-links-nav">
+            <div class="links">
+                <a class="nav-links" href="#home">Home</a>
+                <a class="nav-links" href="#cursos">Cursos</a>
+                <a class="nav-links" href="#info-web">Esta web</a>
+                <a class="nav-links" href="#gallery">Galería</a>
+            </div>
         </div>
+    </nav>
+    <div class="button-nav">
         <div class="icon-bottom">
-            <!--<span></span>
-            <span></span>-->
-            <img src="assets/img/icon-primary2.png" alt="">
+            <img src="assets/img/icon-primary2.png" loading="lazy" alt="">
         </div>
     </div>
-</header>
-<main class="container">
-    <div class="description">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, dicta, ducimus et eum expedita illum libero minima mollitia officia quasi quod, repellendus! Ad, aspernatur cupiditate magni neque officia praesentium voluptate.</p>
-        <h3>Cursos</h3>
-    </div>
-    <article class="grid">
-        <div class="card">
-            <div class="img-card">
-                <img src="assets/img/vue.PNG" alt="">
+    <header>
+        <div class="background part" id="home">
+            <div class="cont-info-header">
+                <div class="cont-img"></div>
+                <h1>Brayan Basallo Soto</h1>
             </div>
-            <div class="main-card">
-                <div class="logo-card">
-                    <img src="assets/img/vuejs.png" alt="">
-                </div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus facilis fuga</p>
+            <div class="icon-bottom">
+                <a href="#cursos">
+                    <img src="assets/img/icon-primary2.png" loading="lazy" alt="">
+                </a>
             </div>
         </div>
-        <div class="card">
-            <div class="img-card">
-                <img src="assets/img/vue.PNG" alt="">
-            </div>
-            <div class="main-card">
-                <div class="logo-card">
-                    <img src="assets/img/vuejs.png" alt="">
+    </header>
+    <main class="container part" id="cursos">
+        <div class="description">
+            <p>Apasionado por la tecnología, aprender y desarrollar nuevas aplicaciones para facilitar tareas a las
+                personas en su vida cotidiana </p>
+            <h3>Cursos y proyectos</h3>
+        </div>
+        <article class="grid">
+            <div class="card">
+                <div class="img-card">
+                    <img src="assets/img/vue.PNG" loading="lazy" alt="">
                 </div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus facilis fuga</p>
+                <div class="main-card">
+                    <div class="logo-card">
+                        <img src="assets/img/vuejs.png" loading="lazy" alt="">
+                    </div>
+                    <p>Este curso fue tomado en la plataforma platzi, en él se hace uso del framework vue js en el cual
+                        se consume la api de criptomonedas coincap.io, se generan tablas, gráficas y conversión de
+                        dinero basado en el precio actual de la criptomoneda de acuerdo al contenido que devuelve la api
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img-card">
+                    <img src="assets/cursos/js.jpg" loading="lazy" alt="">
+                </div>
+                <div class="main-card">
+                    <div class="logo-card">
+                        <img src="assets/img/js.png" loading="lazy" alt="">
+                    </div>
+                    <p>Este curso fue tomado en la plataforma udemy, en él se realizan varios ejercicios prácticos de
+                        javascript, se tratan temas básicos hasta realizar algunas de las herramientas más potentes que
+                        este lenguaje de programación tiene. </p>
+                    <br>
+                    <em> imagen adjunta: certificado udemy </em>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img-card">
+                    <img src="assets/cursos/php-1.PNG" loading="lazy" alt="">
+                </div>
+                <div class="main-card">
+                    <div class="logo-card">
+                        <img src="assets/img/php.png" loading="lazy" alt="">
+                    </div>
+                    <p>Para este lenguaje no tome el curso directamente de una plataforma, para el desarrollo de este
+                        proyecto tome lo aprendido en el SENA junto a la documentación oficial del lenguaje para
+                        resolver dudas, se desarrolla un CRUD, la aplicación permite crear tareas, listar las tareas,
+                        editarlas y eliminarlas </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img-card">
+                    <img src="assets/cursos/laravel.PNG" loading="lazy" alt="">
+                </div>
+                <div class="main-card">
+                    <div class="logo-card">
+                        <img src="assets/img/laravel.png" loading="lazy" alt="">
+                    </div>
+                    <p>Este curso fue tomado en la plataforma platzi, en él se hace uso del framework laravel en el cual
+                        se crea un CRUD, la aplicación permite crear tareas, listar las tareas, editarlas y eliminarlas
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img-card">
+                    <img src="assets/cursos/css1.PNG" loading="lazy" alt="">
+                </div>
+                <div class="main-card">
+                    <div class="logo-card">
+                        <img src="assets/img/css.png" loading="lazy" alt="">
+                    </div>
+                    <p>Este curso fue tomado en la plataforma platzi, en este curso se desarrolla una interfaz de
+                        ventas, se desarrolló para ampliar el manejo sobre el lenguaje de estilos css. </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img-card">
+                    <img src="assets/cursos/css.PNG" loading="lazy" alt="">
+                </div>
+                <div class="main-card">
+                    <div class="logo-card">
+                        <img src="assets/img/css.png" loading="lazy" alt="">
+                    </div>
+                    <p>Este curso fue tomado en la plataforma platzi, en él se desarrolla la interfaz de un blog el cual
+                        cuenta con una interfaz de inicio, perfil de usuario, vista de blogs y detalles del blog, se
+                        desarrolló para ampliar el manejo sobre el lenguaje de estilos css </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img-card">
+                    <img src="assets/cursos/boostrap.PNG" loading="lazy" alt="">
+                </div>
+                <div class="main-card">
+                    <div class="logo-card">
+                        <img src="assets/img/bootstrap.png" loading="lazy" alt="">
+                    </div>
+                    <p>Este curso fue tomado en la plataforma platzi, en él se desarrolla la interfaz de platzi conf
+                        hawaii, una réplica exacta de la utilizada para promocionar el evento, este curso enseña el
+                        manejo del framework de estilos bootstrap</p>
+                </div>
+            </div>
+        </article>
+    </main>
+    <article class="info-web part" id="info-web">
+        <div class="description">
+            <h3>Está web</h3>
+        </div>
+        <div class="post-pc">
+            <div class="background-black">
+                <img src="assets/img/pc1.png" loading="lazy" alt="">
             </div>
         </div>
-        <div class="card">
-            <div class="img-card">
-                <img src="assets/img/vue.PNG" alt="">
-            </div>
-            <div class="main-card">
-                <div class="logo-card">
-                    <img src="assets/img/vuejs.png" alt="">
-                </div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus facilis fuga</p>
-            </div>
+        <div class="container">
+            <p>Esta web fue creada para poner en práctica mi conocimiento y también utilizarla como portafolio, en ella
+                implementó algunas de la cosas que he aprendido a lo largo del tiempo</p>
         </div>
-        <div class="card">
-            <div class="img-card">
-                <img src="assets/img/vue.PNG" alt="">
-            </div>
-            <div class="main-card">
-                <div class="logo-card">
-                    <img src="assets/img/vuejs.png" alt="">
-                </div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus facilis fuga</p>
-            </div>
-        </div>
-        <div class="card">
-            <div class="img-card">
-                <img src="assets/img/vue.PNG" alt="">
-            </div>
-            <div class="main-card">
-                <div class="logo-card">
-                    <img src="assets/img/vuejs.png" alt="">
-                </div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus facilis fuga</p>
+        <div class="post-pc">
+            <div class="background-black2">
+                <img src="assets/img/mobil1.png" loading="lazy" alt="">
             </div>
         </div>
     </article>
-</main>
-<article class="info-web">
-    <div class="description">
-        <h3>Está web</h3>
-    </div>
-    <div class="post-pc">
-        <div class="background-black">
-            <img src="assets/img/pc1.png" alt="">
-        </div>
-    </div>
-    <div class="container">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, harum, soluta! Aspernatur deleniti dignissimos dolore dolores dolorum eaque enim incidunt modi mollitia nihil non, pariatur provident, quis sint sit voluptate.</p>
-    </div>
-    <div class="post-pc">
-        <div class="background-black2">
-            <img src="assets/img/mobil1.png" alt="">
-        </div>
-    </div>
-</article>
-<article class="container">
-    <div class="description">
+    <article class="container part" id="gallery">
         <h3>Galería</h3>
-    </div>
-    <div class="grid">
-        <div class="post-gallery">
-            <img src="assets/galeria/1.jpg" alt="">
-            <div class="info-gallery">
-                <p>San José del Guaviare</p>
-                <img src="assets/img/icono-ubicacion-png-blanco-1.png" alt="">
-            </div>
-        </div>
-        <div class="post-gallery">
-            <img src="assets/galeria/2.jpg" alt="">
-            <div class="info-gallery">
-                <p>San José del Guaviare</p>
-                <img src="assets/img/icono-ubicacion-png-blanco-1.png" alt="">
-            </div>
-        </div>
-        <div class="post-gallery">
-            <img src="assets/galeria/3.jpg" alt="">
-            <div class="info-gallery">
-                <p>San José del Guaviare</p>
-                <img src="assets/img/icono-ubicacion-png-blanco-1.png" alt="">
-            </div>
-        </div>
-        <div class="post-gallery">
-            <img src="assets/galeria/4.jpg" alt="">
-            <div class="info-gallery">
-                <p>San José del Guaviare</p>
-                <img src="assets/img/icono-ubicacion-png-blanco-1.png" alt="">
-            </div>
-        </div>
-        <div class="post-gallery">
-            <img src="assets/galeria/5.jpg" alt="">
-            <div class="info-gallery">
-                <p>San José del Guaviare</p>
-                <img src="assets/img/icono-ubicacion-png-blanco-1.png" alt="">
-            </div>
-        </div>
-        <div class="post-gallery">
-            <img src="assets/galeria/6.jpg" alt="">
-            <div class="info-gallery">
-                <p>San José del Guaviare</p>
-                <img src="assets/img/icono-ubicacion-png-blanco-1.png" alt="">
-            </div>
-        </div>
-    </div>
-</article>
+        <p>Tomo la fotografia como hobby, asi que aqui agrego las fotos que tomo y subo a mi cuenta de instagram </p>
 
-<footer>
-    <div class="con-img-footer">
-        <img src="assets/img/icon-primary.png" alt="">
-    </div>
-    <div class="links-redes">
-        <a href="https://github.com/brayanbasallo" target="_blank"><img src="assets/img/github-white.png" alt=""></a>
-        <a href="https://www.instagram.com/basallo_05/?hl=es-la" target="_blank"><img src="assets/img/instagram-white.png" alt=""></a>
-        <a href="mailto:basallo17@gmail.com"><img src="assets/img/gmail.png" alt=""></a>
-    </div>
-</footer>
+        <!-- SnapWidget -->
+        <script src="https://snapwidget.com/js/snapwidget.js"></script>
+        <iframe src="https://snapwidget.com/embed/922964" class="snapwidget-widget" allowtransparency="true"
+            frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:100%; "></iframe>
+    </article>
+    <footer>
+        <div class="con-img-footer">
+            <a href="#home">
+                <img src="assets/img/icon-primary.png" loading="lazy" alt="">
+            </a>
+        </div>
+        <div class="links-redes">
+            <a href="https://github.com/brayanbasallo" target="_blank"><img src="assets/img/github-white.png"
+                    altloading="lazy"=""></a>
+            <a href="https://www.instagram.com/basallo_05/?hl=es-la" target="_blank"><img
+                    src="assets/img/instagram-white.png" altloading="lazy"=""></a>
+            <a href="mailto:basallo17@gmail.com"><img src="assets/img/gmail.png" altloading="lazy"=""></a>
+        </div>
+    </footer>
+    <script src="js/code.js"></script>
 </body>
+
 </html>
